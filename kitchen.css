@@ -1,0 +1,74 @@
+h1{
+  color: #d8e7ff;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: black 1px 1px;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url("https://secure.img1-fg.wfcdn.com/im/73338568/resize-h300%5Ecompr-r85/3310/33105619/Classic+3%2522+x+6%2522+Beveled+Ceramic+Subway+Tile+in+White.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  background-color: #d8e7ff;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.0);
+    border: none;
+}
+
+#oven {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 10%;
+}
+
+#stove {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 30%;
+}
+
+#dishwasher{
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 60%;
+}
+
+#fridge {
+  margin-bottom: 50px;
+  position:fixed;
+  bottom: 0px;
+  left: 80%;
+}
